@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="HelloWorldRepository"
+id="c31845d0-aa05-428c-82f0-6fbc513a7a71"
+rxversion="6.0">
+  <codegen
+  classname="HelloWorldRepository"
+  namespace="HelloWorld"/>
+  <rootfolder
+  name="Root"
+  id="2c4d33be-2700-4204-9d76-7889d623810c"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>
