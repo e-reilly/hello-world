@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="33fc9d32-6064-47ba-aa12-6179169b0461"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="HelloWorld"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="HelloWorldRepository"
+	id="c31845d0-aa05-428c-82f0-6fbc513a7a71"
+	rxversion="6.0"
+	relativepath="HelloWorldRepository.rxrep">
+		<codegen
+		classname="HelloWorldRepository"
+		namespace="HelloWorld"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2c4d33be-2700-4204-9d76-7889d623810c"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>
