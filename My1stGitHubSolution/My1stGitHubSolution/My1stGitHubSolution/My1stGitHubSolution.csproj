@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{1E3B6DF3-CCA4-45CE-A994-514C798CF151}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>My1stGitHubSolution</RootNamespace>
+    <AssemblyName>My1stGitHubSolution</AssemblyName>
+    <RanorexVersion>6.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>46d7df46-b0fe-432c-a31f-4b4bebd6817c</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>24663a42-749e-4597-a0ea-1ff5d695dd08</id>
+    </Compile>
+    <Compile Include="Modules\RecordedModules\AddTextToDocument.cs">
+      <BoundTo>5101bc25-faff-4ac5-91d3-29ba9c9c6ecc</BoundTo>
+      <DependentUpon>AddTextToDocument.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>edb2b272-1135-4ba1-b97a-7831590949ef</id>
+    </Compile>
+    <Compile Include="Modules\RecordedModules\AddTextToDocument.UserCode.cs">
+      <BoundTo>5101bc25-faff-4ac5-91d3-29ba9c9c6ecc</BoundTo>
+      <DependentUpon>AddTextToDocument.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>309bcd1c-c79b-4b02-8e28-bfbcac7a3e8e</id>
+    </Compile>
+    <Compile Include="Modules\RecordedModules\CloseWord.cs">
+      <BoundTo>a5b634da-e54e-483e-be84-3a2c527f06df</BoundTo>
+      <DependentUpon>CloseWord.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a81f8515-d41d-4d9f-a285-bbd4c441bbce</id>
+    </Compile>
+    <Compile Include="Modules\RecordedModules\CloseWord.UserCode.cs">
+      <BoundTo>a5b634da-e54e-483e-be84-3a2c527f06df</BoundTo>
+      <DependentUpon>CloseWord.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>73e5d3bb-4dbc-4647-889f-576c242579d9</id>
+    </Compile>
+    <Compile Include="Modules\RecordedModules\OpenWord.cs">
+      <DependentUpon>OpenWord.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0851c4c7-c176-434a-a9c9-b50f0d1e9637</id>
+      <BoundTo>91d2538a-61f2-43fa-bf3c-cd598bd5a250</BoundTo>
+    </Compile>
+    <Compile Include="Modules\RecordedModules\OpenWord.UserCode.cs">
+      <DependentUpon>OpenWord.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a6d9c352-3d05-4c6e-a183-21edff2b39a8</id>
+      <BoundTo>91d2538a-61f2-43fa-bf3c-cd598bd5a250</BoundTo>
+    </Compile>
+    <Compile Include="Modules\RecordedModules\Recording1.cs">
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e5f25dd4-2933-4eb3-9c2f-45defe3cb2a8</id>
+      <BoundTo>641df1f4-235b-41ea-b25f-149b9ae7fad1</BoundTo>
+    </Compile>
+    <Compile Include="Modules\RecordedModules\Recording1.UserCode.cs">
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fd9a1b91-f57d-443d-a47e-f141094e5b82</id>
+      <BoundTo>641df1f4-235b-41ea-b25f-149b9ae7fad1</BoundTo>
+    </Compile>
+    <Compile Include="My1stGitHubSolutionRepository.cs">
+      <BoundTo>46d7df46-b0fe-432c-a31f-4b4bebd6817c</BoundTo>
+      <DependentUpon>My1stGitHubSolutionRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>7e6e11b5-6b95-4e7a-863b-79c2b5c0d54b</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>abcb3ec1-9d49-438d-8adc-5bc11951a75d</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>95eeb175-2981-4c0d-bb90-26dba6b23f31</id>
+    </None>
+    <None Include="Modules\RecordedModules\AddTextToDocument.rxrec">
+      <BoundTo>46d7df46-b0fe-432c-a31f-4b4bebd6817c</BoundTo>
+      <id>5101bc25-faff-4ac5-91d3-29ba9c9c6ecc</id>
+      <recordtableid>7643e8d2-f092-4f06-85eb-ee19c020942a</recordtableid>
+    </None>
+    <None Include="Modules\RecordedModules\CloseWord.rxrec">
+      <BoundTo>46d7df46-b0fe-432c-a31f-4b4bebd6817c</BoundTo>
+      <id>a5b634da-e54e-483e-be84-3a2c527f06df</id>
+      <recordtableid>c0e42704-15fd-4437-b133-fbc10f5bbd40</recordtableid>
+    </None>
+    <None Include="Modules\RecordedModules\OpenWord.rxrec">
+      <BoundTo>46d7df46-b0fe-432c-a31f-4b4bebd6817c</BoundTo>
+      <id>91d2538a-61f2-43fa-bf3c-cd598bd5a250</id>
+      <recordtableid>a3bf52d4-7eba-4c9b-a4d1-cea2b607c1ed</recordtableid>
+    </None>
+    <None Include="Modules\RecordedModules\Recording1.rxrec">
+      <BoundTo>46d7df46-b0fe-432c-a31f-4b4bebd6817c</BoundTo>
+      <id>641df1f4-235b-41ea-b25f-149b9ae7fad1</id>
+      <recordtableid>12eae266-4ef7-4bfd-bc00-a0dc6c0adc71</recordtableid>
+    </None>
+    <None Include="My1stGitHubSolutionRepository.rximg">
+      <BoundTo>46d7df46-b0fe-432c-a31f-4b4bebd6817c</BoundTo>
+      <DependentUpon>My1stGitHubSolutionRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>5295271e-7c09-418e-b563-9d86aadc0043</id>
+    </None>
+    <None Include="My1stGitHubSolutionRepository.rxrep">
+      <id>46d7df46-b0fe-432c-a31f-4b4bebd6817c</id>
+      <repoid>3dd597bc-4d75-4c83-a2c1-bf564039486f</repoid>
+      <reporootid>0a49c7e7-e06f-4e86-9618-8fe3b79af429</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="My1stGitHubSolution.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>9724b85c-0512-40fe-a8de-1a6d59bb5f85</id>
+    </Content>
+    <Content Include="My1stGitHubSolution.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>5ec1ad84-b5e5-48ff-99e9-f61284b63f7d</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules">
+      <id>8e820c80-ccb0-4a38-848d-0b43bbffd732</id>
+    </Folder>
+    <Folder Include="Modules\CodeModules">
+      <id>c61c3050-680d-4c7d-acdc-4636c770e763</id>
+    </Folder>
+    <Folder Include="Modules\RecordedModules">
+      <id>20bfd2b5-2eb4-4291-8bf9-f1e537c19b19</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" />
+</Project>
