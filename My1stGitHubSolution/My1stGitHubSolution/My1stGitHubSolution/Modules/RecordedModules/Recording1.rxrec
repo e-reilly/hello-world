@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="12eae266-4ef7-4bfd-bc00-a0dc6c0adc71"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="My1stGitHubSolution.Modules.RecordedModules"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="My1stGitHubSolutionRepository"
+	id="3dd597bc-4d75-4c83-a2c1-bf564039486f"
+	rxversion="6.0"
+	relativepath="..\..\My1stGitHubSolutionRepository.rxrep">
+		<codegen
+		classname="My1stGitHubSolutionRepository"
+		namespace="My1stGitHubSolution"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="0a49c7e7-e06f-4e86-9618-8fe3b79af429"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

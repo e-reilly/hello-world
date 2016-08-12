@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="7643e8d2-f092-4f06-85eb-ee19c020942a"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		AddTextToDocument
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddTextToDocument"
+	namespace="My1stGitHubSolution.Modules.RecordedModules"/>
+	<variables/>
+	<recorditems>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="3258753d-8049-414e-802c-d19e27e3ef12"
+		KeySequence="hello"
+		presstime="100ms">
+			<comment/>
+			<bindings/>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	name="My1stGitHubSolutionRepository"
+	id="3dd597bc-4d75-4c83-a2c1-bf564039486f"
+	rxversion="6.0"
+	relativepath="..\..\My1stGitHubSolutionRepository.rxrep">
+		<codegen
+		classname="My1stGitHubSolutionRepository"
+		namespace="My1stGitHubSolution"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="0a49c7e7-e06f-4e86-9618-8fe3b79af429"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddTextToDocument.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="My1stGitHubSolution"
+      id="267b997b-31c8-461d-b695-ce3eff2c0744"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="My1stGitHubSolution"
+      id="267b997b-31c8-461d-b695-ce3eff2c0744"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
